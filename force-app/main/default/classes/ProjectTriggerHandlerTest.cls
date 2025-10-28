@@ -9,7 +9,7 @@ public class ProjectTriggerHandlerTest {
         testProjects.add(new Project__c(
             Name = 'Test Project 1',
             Project_Code__c = 'TP001',
-            Status__c = 'Planned',
+            Status__c = 'Planned*',  // Fixed: Changed from 'Planned' to 'Planned*'
             Budget__c = 10000.00
         ));
         
