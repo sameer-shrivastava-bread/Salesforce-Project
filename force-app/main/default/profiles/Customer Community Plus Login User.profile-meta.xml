@@ -128,6 +128,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>BookTriggerHandlerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>CourseTriggerHandler</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -283,6 +287,11 @@
         <editable>true</editable>
         <field>Account.Site</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Start_Date__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -4378,6 +4387,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Customer Community Plus Login</userLicense>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AccessOrchestrationObjects</name>
+    </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>ActivitiesAccess</name>

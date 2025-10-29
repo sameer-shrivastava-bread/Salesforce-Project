@@ -3,6 +3,11 @@
     <description>Auto-created by tool for field-level access</description>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Start_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Asset__c.Purchase_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>

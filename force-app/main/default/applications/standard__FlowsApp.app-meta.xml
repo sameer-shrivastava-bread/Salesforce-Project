@@ -11,6 +11,7 @@
     <tabs>standard-FlowRecord</tabs>
     <tabs>standard-FlowOrchestration</tabs>
     <tabs>standard-Monitor</tabs>
+    <tabs>standard-ActionHub</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>FlowsApp_UtilityBar</utilityBar>
 </CustomApplication>
